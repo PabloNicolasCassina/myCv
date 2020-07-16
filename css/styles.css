@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    
+    color:#40514E
 }
 
 
@@ -19,7 +19,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
-    
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -29,30 +29,35 @@ h3 {
 
 a {
     color: #11999E;
-    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6
 }
 
 p {
-    color:#40514E
+    line-height: 2;
 }
 
+
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: gray;
-    border-width: 5px;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
     width: 3%;
-    margin: 120px auto 120px;
+    margin: 100px auto;
 }
 
 
 .bottom-container {
     background-color: #66BFBF;
-    padding: 10px;
+    padding: 50px 0 20px;
 }
 
 .middle-container {
-    
+    margin: 100px 0;
 }
 
 .top-container {
@@ -63,6 +68,22 @@ hr {
 
 .pro {
     text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-info {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .top-cloud {
@@ -81,6 +102,10 @@ hr {
     position: absolute;
     left: 600px;
     bottom: 300px;
+}
+
+.profile-img {
+    width: 10%;
 }
 
 .web-skill{
@@ -109,19 +134,23 @@ hr {
     width: 50%;
     margin: 100px auto 100px;
     text-align: left;
-    line-height: 2;
 }
 
-.BUTTON_GQR {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+.BUTTON_MFF {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     color: #FFFFFF;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 100;
-    padding: 20px;
-    background-color: #3D94F6;
+    padding: 40px;
     box-shadow: 1px 1px 20px 0px #000000;
     -webkit-box-shadow: 1px 1px 20px 0px #000000;
     -moz-box-shadow: 1px 1px 20px 0px #000000;
@@ -131,19 +160,18 @@ hr {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin: 20px auto 40px;
     }
     
-    .BUTTON_GQR:hover {
+    .BUTTON_MFF:hover {
     border: solid #337FED 1px;
-    background: #1E62D0;
-    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     text-decoration: none;
     }
